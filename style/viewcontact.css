@@ -1,0 +1,57 @@
+.contact {
+    text-align: center;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    padding: 50px 10px;
+
+}
+.button {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.table {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    width: 100vw;
+}
+
+.table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 0px solid #000000;
+    background-color: rgb(167, 214, 255);
+    color: rgb(0, 0, 0);
+}
+.table th {
+    background-color: rgb(59, 59, 59);
+    border: 0px solid black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*.table td:nth-child(even) {
+    background-color: #b2b2b225;
+}
+
+.table td:nth-child(odd) {
+    background-color: #efe5e5;
+}*/

@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav h1 {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  aside {
+    background-color: #f4f4f4;
+    float: left;
+    width: 200px;
+    height: 100vh;
+  }
+  
+  aside ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  aside ul li {
+    padding: 10px;
+  }
+  
+  aside ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    float: left;
+    width: calc(100% - 200px);
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  
+  .SignUp{
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .AddtoCart{
+    background-color:aqua;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  
+   
+  
+  
+  
+  .nav{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 0;
+  }
+  
+  .nav .logo h1{
+      font-weight: 600;
+      font-family: sans-serif;
+      color: #ffffff;
+  }
+  
+  .nav .logo b{
+      color: #ff511c;
+  }
+  
+  .nav ul{
+      display: flex;
+      list-style: none;
+  }
+  
+  .nav ul li{
+      margin-right: 30px;
+  }
+  
+  .nav ul li a{
+      text-decoration: none;
+      color: #f6f2f2;
+      font-weight: 500;
+      font-family: sans-serif;
+      font-size: 17px;
+  }
+  
+  .nav ul .active::after{
+      content: '';
+      width: 50%;
+      height: 3px;
+      background-color: #ff511c;
+      display: flex;
+      position: relative;
+      margin-left: 10px;
+  }
+  
+  .fa{
+      font-size: 26px;
+      transition: .4s;
+      
+  }
+  
+  ul{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+  }
+  li{
+      padding: 2px;
+  }
+  .checked{
+      color: yellow;
+  }
+  
+  input{
+      padding: 10px 20px;
+      cursor: pointer;
+      font-weight: 600;
+      
+  }
+  
+  .Login{
+      background: transparent;
+      border: none;
+  }
+  
+  .SignUp{
+      background-color: #ff511c;
+      color: #ffffff;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+  }
+  
+  .AddtoCart{
+      background-color:aqua;
+      color: #ffffff;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+  }
+  
+  .heading
+  {
+      text-align: center;
+      margin-top: 25px;
+  
+  }
+  
+  .heading h1
+  {
+      font-size: 50px;
+      color:brown;
+      margin-bottom: 10px;
+  
+  }
+  
+  
+  
+  
+  
+  
+  

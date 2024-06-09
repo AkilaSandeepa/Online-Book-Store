@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books</title>
+  <link rel="stylesheet" type="text/css" href="./style/category.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script src="./js/category.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <section class="menu">
+      <div class="nav">
+        <div class="logo">
+          <h1>Book<b>shop</b></h1>
+        </div>
+        <ul>
+          <li><a class="active" href="homeBook.html">Home</a></li>
+          <li><a href="category.html">Category</a></li>
+          <li><a href="OFFER.HTML">Offers</a></li>
+          <li><a href="aboutusnew.html">About Us</a></li>
+          <li><a href="Create.php">Feedback</a></li>
+          <li><a href="login.php">Login</a></li>
+          <li><a href="SignUp.php">SignUp</a></li>
+          <li><a href="payment2.html">Add to Cart</a></li>
+        </ul>
+      </div>
+    </section>
+  </header>
+
+  <section class="all-content">
+
+    <!--side bar-->
+
+    <div class="side-cat">
+      <ul class="cat-list">
+        <li class="list-item">
+          <a onclick="scrollToSection('educational-book')">
+            <div class="it-cont">
+              <div class="it-title">
+                <span>Education</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="list-item">
+          <a onclick="scrollToSection('novels')">
+            <div class="it-cont">
+              <div class="it-title">
+                <span>Novels</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="list-item">
+          <a onclick="scrollToSection('fictions')">
+            <div class="it-cont">
+              <div class="it-title">
+                <span>Fiction</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="list-item">
+          <a onclick="scrollToSection('sinhala-books')">
+            <div class="it-cont">
+              <div class="it-title">
+                <span>Sinhala Books</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="list-item">
+          <a onclick="scrollToSection('new-arrivals')">
+            <div class="it-cont">
+              <div class="it-title">
+                <span>New Arrivales</span>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+    <!--Searh box-->
+<div style="margin-right: 10%;">
+        <div class="search-container">
+          <form action="" method="post">
+            <input type="text" name="Book Name" placeholder="Search Books">
+            <input type="submit" value="Search">
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Image slider code -->
+
+    <div class="slideshow-container">
+      <!-- Slide counter -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="./images/1.6.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="./images/1.7.jpg" style="width:100%; height:100%;">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="./images/1.9.jpg" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a id="prev" onclick="plusSlides(-1)" class="prev">&#10094;</a>
+      <a id="next" onclick="plusSlides(1)" class="next">&#10095;</a>
+
+      <!-- The dots/circles -->
+      <div class="beacons" style="text-align:center">
+        <span id="d-one" class="dot" onclick="currentSlide(1)"></span>
+        <span id="d-two" class="dot" onclick="currentSlide(2)"></span>
+        <span id="d-three" class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+
+    <!--image slider end-->
+
+
+
+    <div class="content">
+
+      <div class="section" id="educational-book">
+        <h2 class="cat">Educational Books</h2>
+        <div class="image-row">
+          <div class="image-container">
+            <img src="./images/2.1.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>Book Details :</h4>
+              <div class="book-content">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img src="./images/2.2.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book Details</h4>
+
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img src="./images/2.3.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book 3 Details</h4>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="section" id="novels">
+        <h2 class="cat">Novels</h2>
+        <div class="image-row">
+          <div class="image-container">
+            <img src="./images/3.1.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book Details :</h4>
+              <div class="book-content">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img src="./images/3.2.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book Details</h4>
+
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img src="./images/3.3.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book 3 Details</h4>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="fictions">
+        <h2 class="cat">Fictions</h2>
+        <div class="image-row">
+          <div class="image-container">
+            <img src="./images/5.1.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book Details :</h4>
+              <div class="book-content">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img src="./images/5.2.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book Details</h4>
+
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img src="./images/5.3.jpg" alt="Image 1">
+            <div class="image-text">Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book 3 Details</h4>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="sinhala-books">
+        <h2 class="cat">Sinhala Books</h2>
+        <div class="image-row">
+          <div class="image-container">
+            <img src="./images/6.1.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book Details :</h4>
+              <div class="book-content">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img src="./images/6.2.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book Details</h4>
+
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img src="./images/6.3.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book 3 Details</h4>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="new-arrivals">
+        <h2 class="cat">New Arrivales</h2>
+        <div class="image-row">
+          <div class="image-container">
+            <img src="./images/7.1.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book Details :</h4>
+              <div class="book-content">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img src="./images/7.2.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book Details</h4>
+
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img src="./images/7.3.jpg" alt="Image 1">
+            <div class="image-text">
+              <h3>Books</h3>
+            </div>
+            <button class="quick-view-btn">View</button>
+            <div class="product-preview-popup">
+              <h4>book 3 Details</h4>
+
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <footer>
+
+    <div class="footerContainer">
+      <div class="socialIcons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div class="footerNav">
+        <ul>
+          <li><a href="contact1.html">Contact Us</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="footerBottom">
+        <p> Copyright &copy; Designed by <span class="designer">us</span></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
